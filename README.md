@@ -152,9 +152,3 @@ SAFE層に関する研究・技術協力は以下まで：
 **jordan.capri.1231@gmail.com**
 
 ---
-
-# ✔ 完了
-この README を Hub リポジトリの README.md にそのまま貼れば、  
-**SAFE-CSM 公開体系の公式トップページが完成**します。
-
-
