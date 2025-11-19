@@ -68,7 +68,7 @@ https://github.com/jordancapri1231-prog/SAFE-CSM-Core
 ```
 Note:
 This project hub contains only the SAFE-public layer of SAFE-CSM.
-Operational integrated versions (multi-factor, LLM-integrated, or cognitive variants)
+Operational integrated versions (multi-factor, LLM-integrated)
 exist separately as NDA-protected, non-public implementations.
 ```
 
@@ -143,7 +143,7 @@ NDA 前提の非公開実装として別途管理されています。
 ```
 
 公開版はすべて SAFE層に限定されており、  
-内部構造・適応制御・認知統合版は公開対象外です。
+内部構造・適応制御は公開対象外です。
 
 ---
 
