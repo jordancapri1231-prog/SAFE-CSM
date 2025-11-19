@@ -157,6 +157,7 @@ SAFE層に関する研究・技術協力は以下まで：
 ## Related Theoretical Frameworks
 
 ### Contextual Premise Framework (CPF)
+
 Foundational theoretical model that underlies the SAFE-layer design of SAFE-CSM.
 GitHub:
 https://github.com/jordancapri1231-prog/Contextual-Premise-Framework-CPF-
@@ -168,6 +169,7 @@ OSF DOI: 10.17605/OSF.IO/HMJUA
 
 ### Contextual Premise Framework（CPF）
 SAFE-CSM の外部観測レイヤーの背景にある基礎理論モデル。
+
 GitHub：
 https://github.com/jordancapri1231-prog/Contextual-Premise-Framework-CPF-
 
