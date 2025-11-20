@@ -78,6 +78,9 @@ Foundational model supporting the SAFE-layer design.
 GitHub: https://github.com/jordancapri1231-prog/Contextual-Premise-Framework-CPF-
 
 OSF DOI: 10.17605/OSF.IO/HMJUA
+
+License: SAFE Academic License 2025
+See LICENSE for details.
 ---
 
 # 🇯🇵 日本語（Japanese）
@@ -187,3 +190,6 @@ https://github.com/jordancapri1231-prog/Contextual-Premise-Framework-CPF-
 
 OSF DOI：
 10.17605/OSF.IO/HMJUA
+
+ライセンス：SAFE Academic License 2025
+詳細はライセンスをご覧ください。
