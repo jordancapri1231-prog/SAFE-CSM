@@ -68,6 +68,8 @@ This hub contains only the SAFE-public layer.
 Operational integrated versions (multi-factor, adaptive-blocked, or LLM-integrated editions)
 are NDA-protected and managed separately.
 
+If you're interested in collaboration or system integration, feel free to contact me anytime.
+
 Contact for NDA collaboration:
 📨 jordan.capri.1231@gmail.com
 
@@ -176,6 +178,8 @@ LLM統合 SAFE-CSM
 
 研究協力や詳細仕様へのアクセスを希望される場合は
 NDA前提での対応となります。
+
+研究協力・実装連携に興味がある方は、お気軽にご連絡ください。
 
 📨 連絡先：
 jordan.capri.1231@gmail.com
