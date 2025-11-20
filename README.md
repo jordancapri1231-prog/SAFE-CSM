@@ -60,7 +60,7 @@ OSF DOI: 10.17605/OSF.IO/4RMZ7
 📚 Documentation
 
 Full explanation (SAFE-layer design, drift model, evaluation flow):
-→ docs/README (to be added)
+→ docs/README
 
 🔒 SAFE-Public & NDA Boundary
 
@@ -155,7 +155,7 @@ OSF DOI:
 📚 ドキュメント
 
 SAFEレイヤー設計・ドリフトモデル・評価フローの詳細解説：
-→ docs/README（今後追加）
+→ docs/README
 
 🔒 SAFE公開層・NDA 区分
 
