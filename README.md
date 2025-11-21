@@ -1,57 +1,54 @@
-SAFE-CSM — Official Project Hub
+SAFE-CSM — Official Project Hub (NDA-Oriented / High-Density Edition)
 
-SAFE-CSM = External, Non-Adaptive Stability Layer for Contextual Drift (Δφ)
+External, Non-Adaptive Contextual Stability Evaluation Layer
 
-SAFE-CSM is a SAFE-layer external observation framework designed to evaluate
-contextual drift, oversynchronization, fixation, and divergence
-in LLMs and other contextual-output systems.
+SAFE-CSM is a SAFE-layer framework that evaluates
+context drift (Δφ), over-synchronization, fixation, and divergence
+in LLMs, RAG systems, agents, and industrial signals
+purely from external observation, without any access to internal model components.
 
-SAFE-CSM never accesses model internals, never performs learning, and never modifies the model.
-It analyzes only externally observable signals.
+This repository publishes only the SAFE-public layer (demo layer).
+All operational SAFE-CSM implementations are strictly NDA-only.
 
-🔷 What SAFE-CSM is for
+🔹 Value Provided by SAFE-CSM
 
-SAFE-CSM provides:
+SAFE-CSM enables external evaluation of:
 
-Drift (Δφ) measurement
+detection of contextual drift (Δφ)
 
-Oversynchronization detection
+detection of over-synchronization (fixation loops)
 
-Contextual fixation detection
+detection of divergence / inconsistency patterns
 
-Divergence and instability analysis
+stability evaluation of long-context LLM output and agents
 
-Long-context safety evaluation
+multi-factor drift analysis for industrial data
 
-Model-agnostic external monitoring
+model-independent external monitoring (usable with API-only access)
 
-If your system sometimes “loses consistency”,
-SAFE-CSM shows where and why it happens.
+→ A fully external stability layer that can be applied even to black-box models.
 
-📁 Public SAFE-CSM Editions
+🔹 Public SAFE-CSM Editions (SAFE-public layer)
+SAFE-CSM — LLM Edition
 
-Choose the edition that fits your use case.
-
-1. LLM Edition
-
-External drift evaluation for large language models.
+External stability evaluation module that observes LLM “directional drift (θ)”.
+Includes demo code, SAFE reports, and example figures.
 
 GitHub: https://github.com/jordancapri1231-prog/SAFE-CSM-LLM-Edition
 
 OSF DOI: 10.17605/OSF.IO/VAURE
 
-2. Industry Edition
+SAFE-CSM — Industry Edition
 
-For industrial, control-like, and process-signal drift analysis.
+External evaluation of multi-factor drift patterns in industrial process signals and control systems.
 
 GitHub: https://github.com/jordancapri1231-prog/SAFE-CSM-Industry-Edition
 
 OSF DOI: 10.17605/OSF.IO/FJUWS
 
-3. Core Edition (Minimal Module)
+SAFE-CSM — Core Edition
 
-The smallest Δφ evaluation module.
-Use this if you want to understand the mechanism clearly.
+Minimal Δφ observation module (baseline version for conceptual and transparency purposes).
 
 GitHub: https://github.com/jordancapri1231-prog/SAFE-CSM-Core
 
@@ -59,141 +56,241 @@ OSF DOI: 10.17605/OSF.IO/4RMZ7
 
 📚 Documentation
 
-Full explanation (SAFE-layer design, drift model, evaluation flow):
-→ docs/README
+Full explanation (SAFE-layer design, drift model, evaluation flow): → docs/README
 
-🔒 SAFE-Public & NDA Boundary
+🔹 SAFE-Public Layer vs NDA Layer
+🔵 SAFE-Public Layer (this repository)
 
-This hub contains only the SAFE-public layer.
-Operational integrated versions (multi-factor, adaptive-blocked, or LLM-integrated editions)
-are NDA-protected and managed separately.
+Core / LLM / Industry demos
 
-If you're interested in collaboration or system integration, feel free to contact me anytime.
+SAFE-layer concepts and basic principles
 
-Contact for NDA collaboration:
-📨 jordan.capri.1231@gmail.com
+External observation flow
 
-Related Theoretical Frameworks
-Contextual Premise Framework (CPF)
+Minimal demo code
 
-Foundational model supporting the SAFE-layer design.
+Educational / transparent SAFE-layer design
+
+🔒 NDA Layer (Operational SAFE-CSM)
+
+The following are entirely NDA-only and not publicly disclosed:
+
+operational SAFE-CSM (full implementation)
+
+multi-factor integrated SAFE-CSM
+
+LLM-integrated SAFE-CSM
+
+system-embedded versions
+
+SAFE-band regulatory logic
+
+non-adaptive stability controllers
+
+internal logic derived from CPF
+
+all production-oriented structures
+
+The public demos represent the concept layer,
+while the operational system is an entirely separate structure managed under strict NDA.
+
+🔹 What Can Be Provided After NDA (Advice-Based)
+
+SAFE-CSM is an advisory design layer, not an implementation service.
+After NDA, the following can be provided:
+
+explanation of the operational SAFE-CSM logic
+
+design guidelines for multi-factor integrated versions
+
+drift analysis strategies for LLM / RAG / agent systems
+
+external evaluation guidance for industrial signal drift
+
+methods for SAFE-band adjustment
+
+design advice for external stabilization layers
+(provided via email or chat)
+
+👉 Implementation and API integration are handled by the organization's engineering team.
+SAFE-CSM provides design and structural guidance only.
+
+🔹 NDA Workflow (for Companies / Researchers)
+
+Review the public SAFE-CSM demos
+
+Contact via email
+
+NDA initiation (organization’s standard template is acceptable)
+
+Access to operational SAFE-CSM documents and logic
+
+Begin collaboration at the design / analysis level
+
+🔹 Contact (Research Collaboration / NDA Inquiry)
+
+📨 jordan.capri1231@gmail.com
+
+When contacting, please include:
+
+affiliation / individual
+
+area of interest (LLM / RAG / Agent / Industry etc.)
+
+intended purpose (evaluation / research / deployment consideration)
+
+🔹 Related Theory: CPF (Contextual Premise Framework)
+
+SAFE-CSM’s SAFE-layer design is built upon the CPF theoretical foundation.
+
 GitHub: https://github.com/jordancapri1231-prog/Contextual-Premise-Framework-CPF-
 
 OSF DOI: 10.17605/OSF.IO/HMJUA
 
-License: SAFE Academic License 2025
-See LICENSE for details.
----
 
-# 🇯🇵 日本語（Japanese）
+🇯🇵 SAFE-CSM — 公式プロジェクト・ハブ（NDA前提 / 高密度版）
 
-SAFE-CSM — 公式プロジェクト・ハブ
+外部観測のみで動作する、非適応型コンテキスト安定評価レイヤー
 
-SAFE-CSM = 外部観測のみで動作する、非適応型・コンテキスト安定評価レイヤー
+SAFE-CSM は、LLM・RAG・エージェント・産業信号などにおける
+文脈ドリフト（Δφ）・過同期・固着・発散 を
+モデル内部に一切触れず、外部から観測する SAFE レイヤー です。
 
-SAFE-CSM は、LLM やその他のコンテキスト生成システムにおける
-文脈ドリフト（Δφ）、過同期、固着、発散 を外部から観測して評価する
-SAFEレイヤーのフレームワークです。
+本リポジトリは SAFE公開層（デモ層） のみを公開しています。
+実運用 SAFE-CSM はすべて NDA（秘密保持契約）前提 です。
 
-SAFE-CSM はモデル内部にアクセスせず、
-学習・チューニング・強化などを一切行いません。
-外部から観測できる出力シグナルだけ を用いて評価します。
+🔹 SAFE-CSM が提供する価値
 
-🔷 SAFE-CSM は何のためのフレームワークか
+SAFE-CSM により、外部から次を評価できます：
 
-SAFE-CSM は次のような「文脈の不安定性」を可視化するための外部評価ツールです：
+文脈ドリフト（Δφ）の検出
 
-ドリフト（Δφ）の測定
+過同期（固定化ループ）の検出
 
-過同期（over-synchronization）の検出
+発散／不整合パターンの検出
 
-文脈の固着（fixation）の検出
+長文生成・Agent の安定性評価
 
-発散・不整合の検出
+産業データの揺らぎ・多因子ドリフト解析
 
-長文コンテキストの安定性評価
+モデル非依存の外部観測（API のみでも可）
 
-モデル非依存の外部モニタリング
+→ ブラックボックスモデルにも利用可能な、外付け安定性レイヤー。
 
-LLM や RAG、エージェントが
-「途中で話が崩れる」「一貫性を失う」 場面を
-どこで起きているのか、なぜ起きるのか
-外側から明確に観測できます。
+🔹 公開 SAFE-CSM エディション（SAFE-public layer）
+SAFE-CSM — LLM Edition
 
-📁 公開 SAFE-CSM エディション
+LLM の「方向ドリフト（θ）」を外部から観測する安定性評価モジュール。
+デモコード・SAFEレポート・図表付き。
 
-用途に応じて、以下のエディションを選択してください。
+GitHub: https://github.com/jordancapri1231-prog/SAFE-CSM-LLM-Edition
 
-1. SAFE-CSM — LLM Edition（LLM向け）
+OSF DOI: 10.17605/OSF.IO/VAURE
 
-大規模言語モデルの外部安定性評価モジュール。
-デモコード・SAFEレポート・図表などを含みます。
+SAFE-CSM — Industry Edition
 
-GitHub:
-https://github.com/jordancapri1231-prog/SAFE-CSM-LLM-Edition
+産業プロセス信号や制御系の多因子ドリフトパターンを外部から評価。
 
-OSF DOI:
-10.17605/OSF.IO/VAURE
+GitHub: https://github.com/jordancapri1231-prog/SAFE-CSM-Industry-Edition
 
-2. SAFE-CSM — Industry Edition（産業信号向け）
+OSF DOI: 10.17605/OSF.IO/FJUWS
 
-産業データ・制御系・プロセス信号などにおける
-ドリフト／過同期の検出と SAFE帯（SAFE-band）安定化の評価に特化。
+SAFE-CSM — Core Edition
 
-GitHub:
-https://github.com/jordancapri1231-prog/SAFE-CSM-Industry-Edition
+最小構成の Δφ 観測モジュール（仕組み理解・透明性のための基礎版）。
 
-OSF DOI:
-10.17605/OSF.IO/FJUWS
+GitHub: https://github.com/jordancapri1231-prog/SAFE-CSM-Core
 
-3. SAFE-CSM — Core Edition（最小構成・基礎モジュール）
-
-最小限の Δφ 観測モジュール。
-仕組みを理解したい方向けの透明性の高いバージョン。
-
-GitHub:
-https://github.com/jordancapri1231-prog/SAFE-CSM-Core
-
-OSF DOI:
-10.17605/OSF.IO/4RMZ7
+OSF DOI: 10.17605/OSF.IO/4RMZ7
 
 📚 ドキュメント
 
-SAFEレイヤー設計・ドリフトモデル・評価フローの詳細解説：
-→ docs/README
+SAFEレイヤー設計・ドリフトモデル・評価フローの詳細解説： → docs/README
 
-🔒 SAFE公開層・NDA 区分
+🔹 SAFE公開層 と NDA層 の区分
+🔵 SAFE公開層（このリポジトリ）
 
-本プロジェクト・ハブで公開されている内容は SAFE-CSM の “SAFE公開層” のみ です。
+Core / LLM / Industry の各デモ
 
-以下の実運用向け SAFE-CSM は非公開であり、厳格に NDA により管理されています：
+SAFE レイヤーの概念・基本原理
 
-多因子 SAFE-CSM
+外部観測フロー
 
-LLM統合 SAFE-CSM
+最小構成デモコード
 
-実運用・システム統合バージョン
+教育・透明性のための “SAFE Layer”
 
-適応制御を禁止した統合版（安全目的の非公開層）
+🔒 NDA 層（実運用 SAFE-CSM）
 
-研究協力や詳細仕様へのアクセスを希望される場合は
-NDA前提での対応となります。
+以下は すべて NDA 前提で非公開：
 
-研究協力・実装連携に興味がある方は、お気軽にご連絡ください。
+実運用 SAFE-CSM 本体
 
-📨 連絡先：
-jordan.capri.1231@gmail.com
+多因子統合 SAFE-CSM
 
-🔗 関連理論フレームワーク
-Contextual Premise Framework（CPF）
+LLM 統合 SAFE-CSM
 
-SAFE-CSM の SAFEレイヤー設計を支える理論的基盤モデル。
+システム組込みバージョン
+
+SAFE-band 調整ロジック
+
+非適応型 安定化コントローラ
+
+CPF/DPF から派生する内部ロジック一式
+
+公開デモはあくまで concept layer（思想レイヤー） であり、
+本体はまったく別の構造として NDA で厳格に管理されています。
+
+🔹 NDA後に提供できる内容（助言ベース）
+
+SAFE-CSM は 設計助言レイヤーであり、実装サービスではありません。
+NDA 締結後に提供できる内容：
+
+実運用 SAFE-CSM のロジック説明
+
+多因子統合版の設計指針
+
+LLM / RAG / Agent のドリフト解析方針
+
+産業信号ドリフトの外部評価ガイド
+
+SAFE-band 調整の考え方
+
+外部安定化レイヤーの設計助言（メール／チャット対応）
+
+👉 実装・API 組込みは、組織側のエンジニアチームが担当します。
+SAFE-CSM が提供するのは設計・構造のアドバイスのみです。
+
+🔹 NDA の流れ（企業・研究者向け）
+
+公開 SAFE-CSM（デモ）を確認
+
+メールにて連絡
+
+NDA（相手の標準テンプレートで可）
+
+実運用 SAFE-CSM の資料・ロジック共有
+
+設計・解析レベルでの協力開始
+
+🔹 連絡先（研究協力・NDA相談）
+
+📨 jordan.capri1231@gmail.com
+
+※ 相手に送る場合：
+
+所属／個人
+
+興味領域（LLM / RAG / Agent / Industry 等）
+
+利用目的（評価／研究／導入検討など）
+
+🔹 関連理論：CPF（Contextual Premise Framework）
+
+SAFE-CSM の SAFEレイヤー設計は CPF を理論基盤として構築。
 
 GitHub：
 https://github.com/jordancapri1231-prog/Contextual-Premise-Framework-CPF-
 
 OSF DOI：
 10.17605/OSF.IO/HMJUA
-
-ライセンス：SAFE Academic License 2025
-詳細はライセンスをご覧ください。
