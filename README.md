@@ -277,13 +277,13 @@ NDA（相手の標準テンプレートで可）
 
 📨 jordan.capri1231@gmail.com
 
-※ 相手に送る場合：
+お問い合わせの際は、以下の情報をご記入ください。
 
 所属／個人
 
-興味領域（LLM / RAG / Agent / Industry 等）
+関心分野（LLM / RAG / Agent / Industry etc.）
 
-利用目的（評価／研究／導入検討など）
+目的（評価／調査／導入検討）
 
 🔹 関連理論：CPF（Contextual Premise Framework）
 
