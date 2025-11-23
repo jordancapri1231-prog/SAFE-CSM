@@ -10,6 +10,10 @@ purely from external observation, without any access to internal model component
 This repository publishes only the SAFE-public layer (demo layer).
 All operational SAFE-CSM implementations are strictly NDA-only.
 
+SAFE-CSM is available for external LLM/RAG drift-risk auditing and industrial AI stability evaluation.
+
+Business / NDA inquiries welcome (risk audits, stability reports, integration guidelines)
+
 🔹 Value Provided by SAFE-CSM
 
 SAFE-CSM enables external evaluation of:
@@ -158,6 +162,10 @@ SAFE-CSM は、LLM・RAG・エージェント・産業信号などにおける
 
 本リポジトリは SAFE公開層（デモ層） のみを公開しています。
 実運用 SAFE-CSM はすべて NDA（秘密保持契約）前提 です。
+
+SAFE-CSM は、LLM／RAG のドリフトリスク評価や産業AIの安定性診断に利用できます。
+
+業務利用・NDA に関するご相談（リスク監査・安定化レポート・導入ガイドライン）も歓迎します。
 
 🔹 SAFE-CSM が提供する価値
 
