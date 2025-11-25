@@ -68,6 +68,12 @@ is available on OSF:
 
 Video: https://osf.io/4rmz7/
 
+📊 SAFE-CSM Long-Run Stability Dataset (External Observation Model)
+A full 500,000-step stability experiment is included in this repository.
+
+This dataset demonstrates long-run external-only stability behavior
+without any internal model access.
+
 🔹 SAFE-Public Layer vs NDA Layer
 🔵 SAFE-Public Layer (this repository)
 
@@ -226,6 +232,11 @@ SAFEレイヤー設計・ドリフトモデル・評価フローの詳細解説�
 OSF で公開しています：
 
 動画：https://osf.io/4rmz7/
+
+📊 SAFE-CSM 長期安定性データセット（外部観測モデル）
+このリポジトリには、50万ステップの安定性実験データが含まれています。
+
+このデータセットは、内部モデルへのアクセスを一切行わずに、外部観測のみによる長期安定性挙動を示します。
 
 🔹 SAFE公開層 と NDA層 の区分
 🔵 SAFE公開層（このリポジトリ）
