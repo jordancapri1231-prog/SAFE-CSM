@@ -1,0 +1,117 @@
+SAFE-CSM: Long-Run Stability Report Using an External Observation Model
+
+This report summarizes the behavior observed in a 500,000-step loop generated entirely by the SAFE-CSM external observation model.
+No internal state access, no adaptive mechanisms.
+All values were produced through external fluctuations, nonlinear compression, and phase-deviation tracking.
+
+1. Overview
+
+This report analyzes a 500,000-step long-run stability log produced by the external observation model of SAFE-CSM.
+The model operates without any internal access, learning, or adaptation, and relies solely on external noise and non-linear shaping functions.
+
+Across all 500k steps:
+
+The phase value remained inside the ±0.8 safety band.
+
+No divergence, collapse, or oversynchronization occurred.
+
+Theta, phase, and drift formed a loose three-point equilibrium that remained stable throughout the experiment.
+
+This demonstrates that long-run stability emerges purely from external observation dynamics, consistent with the principles of the SAFE-CSM public layer.
+
+2. Recorded Variables
+
+The following values were recorded at each step:
+
+theta — balance indicator responding to external fluctuation
+
+phase — externally observed phase deviation (±0.8 is the safety band)
+
+drift — nonlinear accumulation shaped by tanh compression
+
+safe_flag — indicator for being inside the safety band
+
+reloop_trigger — anti-oversynchronization valve
+
+balance_trigger — anti-divergence valve
+
+All variables are computed entirely from external dynamics, not from internal model states.
+
+3. Phase Behavior
+
+Across all 500,000 steps:
+
+The phase never exceeded the ±0.8 safety band.
+
+No spikes, collapses, or runaway patterns were observed.
+
+The trajectory shows mild “breathing-style” oscillations.
+
+External noise caused fluctuations, but the system naturally returned toward center.
+
+These results confirm that SAFE-CSM maintains stable phase deviation without relying on internal correction mechanisms.
+
+4. Three-Point Equilibrium Structure
+
+Theta, phase, and drift:
+
+Do not synchronize tightly
+
+Do not diverge
+
+Maintain a loose, flexible equilibrium structure
+
+Show characteristic SAFE-CSM “breathing dynamics”
+
+This three-point equilibrium emerges from:
+
+External stochastic noise
+
+Nonlinear compression of drift
+
+Slow phase deviation adjustment
+
+Natural re-centering tendencies
+
+This structure closely matches the expected behavior of the SAFE-CSM external stability layer.
+
+5. Stability Flags
+
+Across all 500k steps:
+
+safe_flag remained 1 at every step
+
+reloop_trigger never activated
+
+balance_trigger never activated
+
+This indicates:
+
+No oversynchronization
+
+No divergence
+
+No corrective valves were needed
+
+Thus, the system remained stable for the entire run using external dynamics only.
+
+6. Summary
+
+The 500,000-step experiment demonstrates the following:
+
+Phase remained inside the ±0.8 safety band for the entire duration
+
+Theta, phase, and drift formed a stable three-point equilibrium
+
+No corrective events (reloop/balance) were triggered
+
+Long-run stability arises solely from external observation dynamics
+
+Internal structures are not required for stable behavior
+
+The observed dynamics align with SAFE-CSM’s public-layer design philosophy
+
+For industry, this serves as evidence of long-run drift stability without internal correction.
+For researchers, it provides a reproducible example of phase-based external cognitive dynamics.
+
+This dataset holds significant value as a complete, open-access reference for understanding SAFE-CSM stability mechanisms.
