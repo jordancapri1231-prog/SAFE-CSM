@@ -20,6 +20,17 @@ externally observable response regimes
 These materials demonstrate how phase transitions can be evaluated in LLMs
 through external context observation only, following SAFE-CSM’s design principles.
 
+# Demonstration Video (Contextual Phase Observation Experiment)
+
+The full demonstration video exceeds GitHub’s upload limit.
+You can view and download the complete video at the OSF project page:
+
+🔗 **OSF Video Link**  
+https://osf.io/4rmz7/
+
+This video is part of the SAFE-CSM external-only observation dataset  
+and corresponds to the contextual phase drift experiment described in this folder.
+
 Contents
 1. Observation Logs（Original / JA）
 
@@ -120,6 +131,17 @@ LLM の内部情報やパラメータには一切アクセスせず
 
 であり、
 SAFE-CSM が定める “外部観測のみ” の原則に従っています。
+
+# デモビデオ（コンテキスト位相ドリフト実験）
+
+デモビデオ全体はGitHubのアップロード制限を超えています。
+OSFプロジェクトページでビデオ全体を視聴およびダウンロードできます。
+
+🔗 **OSFビデオリンク**
+https://osf.io/4rmz7/
+
+このビデオはSAFE-CSM外部専用観測データセットの一部であり、
+このフォルダに記載されているコンテキスト位相ドリフト実験に対応しています。
 
 ■ 内容構成
 1. 観測ログ（生データ / 日本語）
