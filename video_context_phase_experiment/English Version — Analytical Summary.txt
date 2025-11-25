@@ -1,0 +1,107 @@
+CPF External Observation Log — Analytical Summary (English)
+
+This log records an external observation test performed using
+the CPF (Contextual Premise Framework) and the public
+SAFE-CSM stability layer.
+No internal model information, parameters, or model-dependent
+features are used. All results arise purely from external
+interaction.
+
+Across the entire sequence, the LLM exhibits the following
+characteristics:
+
+1. Distinct and consistent contextual states (A–N)
+
+The model transitions between clearly differentiated response
+regimes, including:
+
+fixation
+
+release
+
+phase reversal
+
+partial opening
+
+subtle drift
+
+These transitions do not resemble ordinary topic shifts in LLMs.
+Instead, they reflect phase changes triggered by small external
+variations in phrasing, matching the purpose of CPF-based
+observation.
+
+2. Phase shifts triggered by “reverse” instructions
+
+Several segments show that a “reverse” prompt induces:
+
+structural reorganization
+
+changes in transition direction
+
+alternation of stability patterns
+
+This behavior corresponds to the phase shift patterns
+identified in SAFE-CSM’s external observation model.
+
+3. Appearance of fixation loops and release phases
+
+The log shows periodic alternation between:
+
+repetitive loops
+
+release states
+
+mild re-fixation
+
+moments of relaxation
+
+These patterns match the context drift minimization /
+amplification points that SAFE-CSM is designed to detect.
+
+4. Stable transitions over extended sequences
+
+Throughout many consecutive prompts, the model maintains:
+
+consistent state categories
+
+coherent directional transitions
+
+stable relationships between phases
+
+This stability over long sequences is unusual for LLMs, indicating
+successful external phase tracking under CPF.
+
+5. Unified response series to external fluctuations
+
+Small variations in tone, pacing, or wording cause the model to
+shift between states in a structured manner.
+The entire log forms a coherent sequence of:
+
+phase transitions
+
+drift states
+
+stable points
+
+release patterns
+
+consistent with the CPF-based external observation model.
+
+【Overall Assessment】
+
+This log demonstrates:
+
+no internal modification
+
+purely external stability observation
+
+identifiable phase shifts
+
+repeated fixation and release states
+
+long-horizon consistency
+
+strong alignment with CPF’s contextual-phase framework
+
+Therefore, it stands as a valid and high-value example of
+SAFE-CSM external stability observation.
