@@ -62,6 +62,12 @@ OSF DOI: 10.17605/OSF.IO/4RMZ7
 
 Full explanation (SAFE-layer design, drift model, evaluation flow): → docs/README
 
+🎥 Demonstration Video  
+A full screen-capture of the external stability experiment  
+is available on OSF:
+
+Video: https://osf.io/4rmz7/
+
 🔹 SAFE-Public Layer vs NDA Layer
 🔵 SAFE-Public Layer (this repository)
 
@@ -214,6 +220,12 @@ OSF DOI: 10.17605/OSF.IO/4RMZ7
 📚 ドキュメント
 
 SAFEレイヤー設計・ドリフトモデル・評価フローの詳細解説： → docs/README
+
+🎥 デモ動画  
+外部安定性テストの画面キャプチャ動画は  
+OSF で公開しています：
+
+動画：https://osf.io/4rmz7/
 
 🔹 SAFE公開層 と NDA層 の区分
 🔵 SAFE公開層（このリポジトリ）
