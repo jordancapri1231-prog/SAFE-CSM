@@ -133,7 +133,7 @@ Begin collaboration at the design / analysis level
 
 🔹 Contact (Research Collaboration / NDA Inquiry)
 
-📨 jordan.capri1231@gmail.com
+📨 jordan.capri.1231@gmail.com
 
 When contacting, please include:
 
@@ -283,7 +283,7 @@ NDA（相手の標準テンプレートで可）
 
 🔹 連絡先（研究協力・NDA相談）
 
-📨 jordan.capri1231@gmail.com
+📨 jordan.capri.1231@gmail.com
 
 お問い合わせの際は、以下の情報をご記入ください。
 
