@@ -312,7 +312,7 @@ NDA（相手の標準テンプレートで可）
 
 所属／個人
 
-関心分野（LLM / RAG / Agent / Industry etc.）
+関心分野（LLM / RAG / Agent / Industry etc）
 
 目的（評価／調査／導入検討）
 
