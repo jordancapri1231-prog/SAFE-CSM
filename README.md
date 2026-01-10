@@ -380,7 +380,7 @@ NDA（相手の標準テンプレートで可）
 
 🔹 関連理論：CPF（Contextual Premise Framework）
 
-SAFE-CSM の SAFEレイヤー設計は CPF を理論基盤として構築。
+SAFE-CSM の SAFEレイヤー設計は、CPF を理論基盤として構築されている。
 
 GitHub：
 https://github.com/jordancapri1231-prog/Contextual-Premise-Framework-CPF-
