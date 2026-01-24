@@ -186,6 +186,10 @@ area of interest (LLM / RAG / Agent / Industry etc.)
 
 intended purpose (evaluation / research / deployment consideration)
 
+🔹 Minimal questions / scope confirmation (no NDA)
+
+Short, scope-confirmation inquiries are acceptable (yes / no replies only).
+
 🔹 Related Theory: CPF (Contextual Premise Framework)
 
 SAFE-CSM’s SAFE-layer design is built upon the CPF theoretical foundation.
@@ -370,13 +374,18 @@ NDA（相手の標準テンプレートで可）
 
 📨 jordan.capri.1231@gmail.com
 
-お問い合わせの際は、以下の情報をご記入ください。
+ご連絡の際は、差し支えない範囲で以下をお知らせください。
 
-所属／個人
+所属（または個人）
 
-関心分野（LLM / RAG / Agent / Industry etc）
+関心分野（LLM / RAG / Agent / Industry 等）
 
-目的（評価／調査／導入検討）
+目的（評価／研究／導入検討 など）
+
+🔹 最小確認（NDA不要）
+
+※ 適用範囲や可否に関する 簡単な確認のみ（原則 yes / no のみ）であれば、
+NDAなしでのご連絡も可能です。
 
 🔹 関連理論：CPF（Contextual Premise Framework）
 
