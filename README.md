@@ -14,6 +14,26 @@ SAFE-CSM is available for external LLM/RAG drift-risk auditing and industrial AI
 
 Business / NDA inquiries welcome (risk audits, stability reports, integration guidelines)
 
+🔹 Small-Team Pilot
+
+SAFE-CSM offers a limited pilot option for small teams seeking external LLM stability auditing.
+
+Scope:
+- External drift diagnosis based on submitted logs
+- No internal model access required
+- No implementation
+- Metrics-only reporting
+
+Format:
+- Up to 3 sessions per month
+- Fixed monthly fee (disclosed upon inquiry)
+- Optional one-time trial (metrics only, no advisory responsibility)
+
+To initiate a pilot, submit sample logs (prompt/output format) for scope confirmation.
+
+This pilot is designed for early-stage teams exploring external stability auditing without long-term commitment.
+
+
 🔹 Value Provided by SAFE-CSM
 
 SAFE-CSM enables external evaluation of:
@@ -213,6 +233,33 @@ SAFE-CSM は、LLM・RAG・エージェント・産業信号などにおける
 SAFE-CSM は、LLM／RAG のドリフトリスク評価や産業AIの安定性診断に利用できます。
 
 業務利用・NDA に関するご相談（リスク監査・安定化レポート・導入ガイドライン）も歓迎します。
+
+🔹 Small-Team Pilot（小規模チーム向け）
+
+SAFE-CSMは、小規模チーム向けに限定的な外部LLM安定性監査パイロットを提供しています。
+
+Scope（提供範囲）
+
+提出ログに基づく外部ドリフト診断
+
+内部モデルへのアクセス不要
+
+実装対応なし
+
+メトリクスのみの報告（解釈・助言なし）
+
+Format（形式）
+
+月最大3セッション
+
+固定月額（詳細は問い合わせ時に開示）
+
+単発トライアル可（メトリクス提供のみ／助言責任なし）
+
+パイロット開始をご希望の場合は、
+prompt / output 形式のサンプルログをご提出ください（事前スコープ確認用）。
+
+本パイロットは、長期契約なしで外部安定性監査を検討したい初期段階チーム向けに設計されています。
 
 🔹 SAFE-CSM が提供する価値
 
