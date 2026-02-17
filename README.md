@@ -1,18 +1,17 @@
-SAFE-CSM — Official Project Hub (NDA-Oriented / High-Density Edition)
+SAFE-CSM — Official Project Hub
 
-External, Non-Adaptive Contextual Stability Evaluation Layer
+External, Non-Adaptive Contextual Stability Governance Layer
 
-SAFE-CSM is a SAFE-layer framework that evaluates
-context drift (Δφ), over-synchronization, fixation, and divergence
-in LLMs, RAG systems, agents, and industrial signals
-purely from external observation, without any access to internal model components.
+SAFE-CSM evaluates contextual stability using only externally observable output signals — enabling early detection of logical collapse, drift, and instability in production AI and industrial systems without internal access.
 
-This repository publishes only the SAFE-public layer (demo layer).
-All operational SAFE-CSM implementations are strictly NDA-only.
+It detects fixation, over-synchronization, divergence, and contextual drift (Δφ) across LLMs, agents, and industrial control environments.
 
-SAFE-CSM is available for external LLM/RAG drift-risk auditing and industrial AI stability evaluation.
+This repository publishes only the SAFE-public layer (demonstration layer).
+All operational SAFE-CSM implementations — including multi-factor stabilization logic and external control design — are strictly NDA-only.
 
-Business / NDA inquiries welcome (risk audits, stability reports, integration guidelines)
+SAFE-CSM supports external governance, drift-risk auditing, and stabilization design for production-scale AI systems.
+
+Business / NDA inquiries welcome (risk audits, stabilization design, integration guidance).
 
 🔹 Small-Team Pilot
 
@@ -219,20 +218,20 @@ GitHub: https://github.com/jordancapri1231-prog/Contextual-Premise-Framework-CPF
 OSF DOI: 10.17605/OSF.IO/HMJUA
 
 
-🇯🇵 SAFE-CSM — 公式プロジェクト・ハブ（NDA前提 / 高密度版）
+🇯🇵 SAFE-CSM — 公式プロジェクトハブ
 
-外部観測のみで動作する、非適応型コンテキスト安定評価レイヤー
+外部の非適応コンテキスト安定性ガバナンス層
 
-SAFE-CSM は、LLM・RAG・エージェント・産業信号などにおける
-文脈ドリフト（Δφ）・過同期・固着・発散 を
-モデル内部に一切触れず、外部から観測する SAFE レイヤー です。
+SAFE-CSM は、外部から観測可能な出力信号のみを使用してコンテキストの安定性を評価します。これにより、内部アクセスなしで生産 AI や産業システムの論理崩壊、ドリフト、不安定性を早期に検出できます。
 
-本リポジトリは SAFE公開層（デモ層） のみを公開しています。
-実運用 SAFE-CSM はすべて NDA（秘密保持契約）前提 です。
+LLM、エージェント、および産業用制御環境全体にわたる固定、過剰同期、発散、およびコンテキストドリフト (Δφ) を検出します。
 
-SAFE-CSM は、LLM／RAG のドリフトリスク評価や産業AIの安定性診断に利用できます。
+このリポジトリは、SAFE-public レイヤー (デモ レイヤー) のみを公開します。
+多要素安定化ロジックや外部制御設計を含む、すべての運用上の SAFE-CSM 実装は厳密に NDA のみです。
 
-業務利用・NDA に関するご相談（リスク監査・安定化レポート・導入ガイドライン）も歓迎します。
+SAFE-CSM は、実稼働規模の AI システムの外部ガバナンス、ドリフト リスク監査、安定化設計をサポートします。
+
+ビジネス / NDA に関するお問い合わせを歓迎します (リスク監査、安定化設計、統合ガイダンス)。
 
 🔹 Small-Team Pilot（小規模チーム向け）
 
